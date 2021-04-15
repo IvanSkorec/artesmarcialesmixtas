@@ -1,0 +1,154 @@
+body{
+	color:#333;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2;
+    line-height: 1.4;
+
+}
+/*------------------HEADER------------------------------------------------HEADER------------------------*/
+header h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+    text-align: right;
+    color:black;
+}
+p {
+  margin-bottom: 1.6em;
+
+}
+.logo{
+	height: 60px;
+}
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    z-index: -1;
+}
+.header {
+    background:#333;
+    color:white;
+    padding: 2rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.logo {
+    letter-spacing: 15px;
+    font-size: 1.3em;
+} 
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li {
+    display: inline-block;
+}
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+.navigation ul li a:hover {
+    background: #4a4a4a;
+}
+/*------------------HEADER------------------------------------------------HEADER------------------------*/
+
+
+
+/*---------------MAIN-----------------------------MAIN--------------MAIN----------------------------------*/
+main{
+	padding-top: 12rem;
+}
+.containerBlog{
+	padding-top: 12rem;
+}
+
+/*---------------MAIN-----------------------------MAIN--------------MAIN----------------------------------*/
+
+
+
+/*---------------------------------FOOTER--------------------------------------FOOTER------------------------------*/
+footer{
+    background: #f2f2f2;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+/*---------------------------------FOOTER--------------------------------------FOOTER------------------------------*/
+
+/*----------------------------COMPETIDORES-------------------------COMPETIDORES------------------------*/
+
+/*----------------------------COMPETIDORES-------------------------COMPETIDORES------------------------*/
+/*BLOG----------------------------------------------BLOG---------------*/
+.h1Blog{
+	color: black;
+}
+.containerBlog{
+	background: #fff;
+	width: 90%;
+	max-width: 1000px;
+	margin: 1.6em auto;
+
+	display: grid;
+	grid-gap: 1.6em;
+	grid-template-columns: repeat(2, 1fr);
+
+
+
+}
+
+.containerBlog > .content,
+.containerBlog > .sidebar,
+.containerBlog > div {
+	background: #fff;
+	padding: 20px;
+	border: 1px solid black;
+}
+.containerBlog > .content {
+	grid-column: span 1;
+
+}
+.content > .article{
+	background: #808e9b;
+	padding: 2px;
+	margin-top: 5px;
+	color: #dfe6e9;
+	
+
+	
+}
+.containerBlog > .sidebar {
+	grid-column: span 1;
+	background: #485460;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.animacion{
+	transition: 2s;
+}
+.animacion:hover{
+	transform: scaleX(0.5);
+}
+
+/*BLOG----------------------------------------------BLOG---------------*/
